@@ -170,7 +170,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 # Allow specific origins
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Replace with your frontend URL
-    "https://yourfrontenddomain.com",
+    "https://techeraafrica.com",
 ]
 
 # Optional: Allow specific headers
