@@ -30,8 +30,8 @@ class ProgramApplication(models.Model):
     gender = models.CharField(max_length=10)
     location = models.CharField(max_length=100)
     program = models.CharField(max_length=20)
+    how_did_you_hear_about_us = models.CharField(max_length=50, blank=True, null=True)
     cover_letter = models.CharField(max_length=500, blank=True, null=True)
-    referred_by = models.CharField(max_length=100, blank=True, null=True)
-
+    
     def __str__(self):
         return f"{self.first_name} {self.last_name} - {self.program}"
