@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l3dp+sd82y(bry_#5-fj7006w^oykrh=f%2&#bsf!eh9$sl13t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['techeraform-backend.onrender.com','127.0.0.1']
+ALLOWED_HOSTS = ['techeraform-backend.onrender.com','127.0.0.1', 'techeraform-backend-1.onrender.com']
 
 
 # Application definition
